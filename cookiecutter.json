@@ -1,0 +1,10 @@
+{
+    "project": "sample",
+    "description":"",
+    "author":"",
+    "author_email":"",
+    "_copy_without_render": [
+        "*.css",
+        "*.js"
+    ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+
+<head>
+   <title>{{cookiecutter.project}}</title>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   {% raw %}
+
+   <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css')}}">
+   <link href="{{ url_for('static',filename='css/docs.css')}}" rel="stylesheet">
+   <script src="{{ url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
+   {% endraw %}
+
+</head>
+
+<body >
+   <footer class="mt-auto py-3 bg-dark">
+      <div class="container">
+         <div class="row">
+            <div class="col text-start">
+               <span class="text-muted fs-6">v0.1</span>
+            </div>
+
+               <div class="col" style="color: antiquewhite;">
+
+                  <h1>{{cookiecutter.project}}</h1> 
+               </div>
+            <div class="col text-end">
+               <a href="https://www.paypal.com/donate/?business=7HRKKHKTPEXRU&no_recurring=0&currency_code=EUR" 
+               target="_blank" type="button" class="btn btn-secondary btn-sm"> Buy me a beer!</a>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <div class="container">
+ 
+   </div>
+   {% raw %}
+
+   <script src="{{ url_for('static',filename='js/jquery-3.6.1.min.js') }}"></script>
+
+{% endraw %}
+
+</body>
+
+</html>
